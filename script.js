@@ -95,7 +95,7 @@ const MONTHS = [
     dtList2.textContent = `Total Races: ${races.length}`
     
     const dtList3 = document.createElement('dt')
-    dtList3.textContent = `Event Date: ${day} ${(MONTHS[month])}${year}`
+    dtList3.textContent = `Event Date: ${day} ${(MONTHS[month])} ${year}`
     
     const dtList4 = document.createElement('dt')
     dtList4.textContent = `Total Time: 00:${sumTime}`
